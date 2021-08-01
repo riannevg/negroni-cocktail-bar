@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+[class*=grid]{margin:0;}
+
+
+body{font-family: 'Martel', serif;}
+
+/* Universal styles */
+
+.padded     {padding:5%;}
+.padded-1   {padding:1rem;}
+.padded-l-0 {padding-left:0;}
+
+.center     {text-align: center;}
+.right      {text-align: right;}
+.left       {text-align: left;}
+
+.tall-60    {min-height:60vh;}
+.tall-50    {min-height: 50vh;}
+.tall-70    {min-height: 70vh;}
+.tall-90    {min-height:90vh}
+
+.bg-dark    {background-color: #183039;}
+.bg-featured{background-color: #24282B;}
+
+.light-text {color:white;}
+.featured-text{color:#182039;}
+.big-text{
+    font-size:8vw;
+    line-height:0.7;
+    font-weight:300;}
+
+.medium-text{
+    font-size:2rem;
+}
+
+.small-text{font-size:0.5rem;}
+
+.bg-image   {
+    background-image:url('/images/water-light.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(60,60,60);
+}
+
+.bg-glass   {
+    background-image: url('/images/negroni-3.jpg');
+    background-position: 50% 40%;
+}
+
+.bg-light{
+    background-image:url('/images/negroni-2.jpg');
+    background-position:bottom;
+}
+
+.bg-plant{
+    background-image:url('images/negroni-4.jpg');
+    background-position:50% 25%;
+}
+
+.bg-texture{
+    background-image:url('images/water-light.jpg')
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+a:hover{
+    color:orange;
+}
