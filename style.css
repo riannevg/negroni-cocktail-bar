@@ -1,3 +1,12 @@
+/* NOTES */
+
+:root{
+    --featured: #24282B;
+    --dark:#182039;
+}
+
+/*  */
+
 *{
     padding:0;
     margin:0;
@@ -24,11 +33,11 @@ body{font-family: 'Martel', serif;}
 .tall-70    {min-height: 70vh;}
 .tall-90    {min-height:90vh}
 
-.bg-dark    {background-color: #183039;}
-.bg-featured{background-color: #24282B;}
+.bg-dark    {background-color: var(--dark);}
+.bg-featured{background-color: var(--featured);}
 
 .light-text {color:white;}
-.featured-text{color:#182039;}
+.featured-text{color: var(--featured);}
 .big-text{
     font-size:8vw;
     line-height:0.7;
